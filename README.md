@@ -46,7 +46,10 @@ After server validate the client, server will evaluate the client every 60 minut
 ## Using Push Notification Client API
 
 **Windows**
+
 C:\xampp\php\php.exe -q C:\xampp\htdocs\PHPPushNotificationClient\ClientNotif.php
 
+
 **Linux**
+
 php -q /var/PHPPushNotificationClient/ClientNotif.php
