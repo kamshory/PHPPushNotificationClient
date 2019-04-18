@@ -3,6 +3,12 @@ Push Notification is a notification that is forcibly sent by the server to the c
 
 PHP can receive notification sent by notification server. 
 
+## Requirement
+
+This library need Thread class. In case it not installed on your server, you can download it from https://windows.php.net/downloads/pecl/releases/pthreads/2.0.10/
+
+See https://secure.php.net/manual/en/pthreads.installation.php to install
+
 ## Push Notification Server
 
 To get push notification server, please click https://github.com/kamshory/PushNotificationServer
