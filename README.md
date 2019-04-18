@@ -49,6 +49,10 @@ After server validate the client, server will evaluate the client every 60 minut
 4. If answer is valid, server send new token to client
 5. If answer is invalid, server close the connection
 
+## Process Indicatior
+
+Process indicator used to monitor the process from remote host using TCP. ProcessIndicator will listen to a port when the process is running. 
+
 ## Using Push Notification Client API
 
 **Windows**
