@@ -84,6 +84,14 @@ class ClientNotif
 
 $indicator = new ProcessIndicator("localhost", 96);
 $indicator->start();
-$api = new ClientNotif("localhost", 92, false, "PLANETBIRU", "1234567890W", "41fda1bcf6486301", "123456");
+$host = "localhost";
+$port = 92;
+$ssl = false;
+$apiKey = "PLANETBIRU";
+$groupKey = "1234567890W";
+$devideID = "41fda1bcf6486301";
+$password = "123456";
+
+$api = new ClientNotif($host, $port, $ssl, $apiKey, $groupKey, $devideID, $password);
 $api->init()->connect()->login()->start();
 ?>
